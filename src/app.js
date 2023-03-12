@@ -117,6 +117,6 @@ app.get('*',(req,res)=>{
  })
 })
 
-app.listen(3000, () => {
+app.listen(process.env.host, () => {
   console.log("Server is up on port 3000");
 });
