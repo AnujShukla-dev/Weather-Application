@@ -1,5 +1,5 @@
 const sendRequest = (location) => {
-  fetch(`http://localhost:3000/weather?address=${location}`).then(
+  fetch(`https://weather-7yxl.onrender.com/weather?address=${location}`).then(
     (response) => {
       response.json().then((data) => {
         console.log(data)
